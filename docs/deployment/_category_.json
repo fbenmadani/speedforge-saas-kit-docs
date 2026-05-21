@@ -1,0 +1,8 @@
+{
+    "label": "Deploy your saas",
+    "position": 9,
+    "link": {
+        "type": "generated-index",
+        "description": "Plan, deploy and scale your saas"
+    }
+}
