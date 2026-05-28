@@ -145,16 +145,53 @@ const SpeedForgeLanding = () => {
 
     const features = [
         {
-            icon: '⚡',
-            title: 'Pre-built Components',
+            icon: '🔑',
+            title: 'Authentication',
             description:
-                'Battle-tested UI components and patterns that work out of the box. Reduce boilerplate by 60% and focus on your business logic.',
+                'Email and password login. Users can sign up and sign in with standard credentials, which is the baseline for most SaaS products.',
         },
         {
-            icon: '🔒',
-            title: 'Security Hardened',
+            icon: '👤',
+            title: 'Multi-Tenant & User Management',
             description:
-                'Enterprise-grade security with authentication, authorization, and compliance built in. GDPR, SOC 2, and HIPAA ready.',
+                'with Database Isolation powered by tenancyforlaravel package.User profiles. Users can store names, avatars, roles, and personal details.',
+        },
+        {
+            icon: '💰',
+            title: 'Billing',
+            description:
+                'Pricing page,Free trials,Checkout flow.',
+        },
+        {
+            icon: '💳',
+            title: 'Subscriptions',
+            description:
+                'Stripe integration,Recurring billing,Upgrade/downgrade plans.',
+        },
+        {
+            icon: '📊',
+            title: 'Dashboard and Analytics',
+            description:
+                'Admin dashboard,KPI cards,Chart widgets,Funnel tracking.',
+        },
+        {
+            icon: '👥',
+            title: 'Platform and Operations',
+            description:
+                'Role-based access control (RBAC),Team management,Audit logs,Activity tracking.',
+        },
+        {
+            icon: '👋',
+            title: 'Onboarding and User Management',
+            description:
+                'Welcome emails,Setup wizards,User invitations,Role management.',
+        },
+
+        {
+            icon: '🔌',
+            title: 'Api and Webhooks',
+            description:
+                'Secure RESTful APIs,Webhooks for real-time events,API documentation,API versioning.',
         },
         {
             icon: '📈',
