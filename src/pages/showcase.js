@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import SpeedForgeLanding from '@site/src/components/SpeedForgeLanding';
 
 export default function Hello() {
     return (
@@ -12,11 +13,13 @@ export default function Hello() {
                     height: '50vh',
                     fontSize: '20px',
                 }}>
-                <p>
-                    <h1>Build with SpeedForge Saas Kit</h1>
-                    <p>Showcase of projects built with SpeedForge Saas Kit</p>
-                </p>
+
+                <h1>Build with SpeedForge Saas Kit</h1>
+                <h3>Showcase of projects built with SpeedForge Saas Kit</h3>
+
             </div>
+
+
         </Layout>
     );
 }

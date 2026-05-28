@@ -7,6 +7,8 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
+import SpeedForgeLanding from '@site/src/components/SpeedForgeLanding';
+
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -32,11 +34,15 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`B2B SaaS Kit for Laravel `}
       description="Multitenant Laravel SaaS Starter Kit">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <SpeedForgeLanding />
+
+
+
       </main>
     </Layout>
   );

@@ -52,6 +52,10 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+        gtag: {
+          trackingID: 'GTM-PWJRNBPF',
+          anonymizeIP: true,
+        },
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -149,7 +153,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Speed Forge Saas Kit, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Speed Forge Saas Kit. Built with trust, reliability, and developer empowerment. docs by Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
