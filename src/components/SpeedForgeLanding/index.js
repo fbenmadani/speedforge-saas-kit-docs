@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from '@docusaurus/Link';
 
 // Logo Component
 const SpeedForgeLogo = ({ size = 40 }) => (
@@ -334,8 +335,8 @@ const SpeedForgeLanding = () => {
                         flexWrap: 'wrap',
                     }}
                 >
-                    <CTAButton variant="primary" text="Get Started Free" />
-                    <CTAButton variant="secondary" text="View Demo" />
+                    <Link to="https://github.com/fbenmadani/sfsaas"><CTAButton variant="primary" text="Get Started Free" /></Link>
+                    <Link to="https://demo.speedforgesaas.com"><CTAButton variant="secondary" text="View Demo" /></Link>
                 </div>
             </section>
 
