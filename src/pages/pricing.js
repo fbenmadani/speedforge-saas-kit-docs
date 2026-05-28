@@ -4,19 +4,9 @@ import Layout from '@theme/Layout';
 
 export default function Pricing() {
     return (
-        <Layout title="Showcase:Build with SpeedForge Saas Kit " description="Hello React Page">
+        <Layout title=" Pricing: Build with SpeedForge Saas Kit " description="Hello React Page">
             <div className="container">
-
-
-
-
-
                 <PricingTable />
-
-
-
-
-
             </div>
         </Layout>
     );
